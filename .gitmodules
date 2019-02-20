@@ -1,0 +1,3 @@
+[submodule "src/kacanopen-roboteq-example"]
+	path = src/kacanopen-roboteq-example
+	url = https://github.com/dghani/kacanopen-roboteq-example.git
