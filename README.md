@@ -6,6 +6,7 @@ This repo is the catkin workspace used to launch the package at https://github.c
 
 The package is contained as a submodule within this repo.
 
+## Clone the repo
 ```bash
 git clone --recurse-submodules https://github.com/dghani/kacanopen-roboteq-example-workspace.git
 ```
