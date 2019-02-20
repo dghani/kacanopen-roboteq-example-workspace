@@ -10,3 +10,15 @@ The package is contained as a submodule within this repo.
 ```bash
 git clone --recurse-submodules https://github.com/dghani/kacanopen-roboteq-example-workspace.git
 ```
+## Build
+```bash
+cd kacanopen-roboteq-example-workspace
+catkin_make
+```
+## Run the example 
+
+Example located at: src/kacanopen-roboteq-example/examples/ros/motor_and_io_bridge.cpp
+
+```bash
+./start_robot
+```
