@@ -1,7 +1,5 @@
 # kacanopen-roboteq-example-workspace
 
-# Installation
-
 This repo is the catkin workspace used to launch the package at https://github.com/dghani/kacanopen-roboteq-example
 
 The package is contained as a submodule within this repo.
@@ -20,5 +18,5 @@ catkin_make
 Example located at: src/kacanopen-roboteq-example/examples/ros/motor_and_io_bridge.cpp
 
 ```bash
-./start_robot
+./start_robot.sh
 ```
