@@ -11,7 +11,7 @@ git clone --recurse-submodules https://github.com/dghani/kacanopen-roboteq-examp
 ## Build
 ```bash
 cd kacanopen-roboteq-example-workspace
-catkin_make
+catkin_make -DDRIVER=socket
 ```
 ## Run the example 
 
