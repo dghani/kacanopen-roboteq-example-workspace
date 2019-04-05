@@ -78,7 +78,7 @@ int main(int argc, char* argv[]) {
 			auto iopub_1_1 = std::make_shared<kaco::EntryPublisher>(device, "qry_relcntr/channel_1");
     		bridge.add_publisher(iopub_1_1,10);
 
-			auto iopub_1_2 = std::make_shared<kaco::EntryPublisher>(device, "qry_batamps/channel_1");
+			auto iopub_1_2 = std::make_shared<kaco::EntryPublisher>(device, "qry_motamps/channel_1");
     		bridge.add_publisher(iopub_1_2,10);
 
 			auto iosub_2_1 = std::make_shared<kaco::EntrySubscriber>(device, "cmd_cango/cmd_cango_2");
@@ -87,7 +87,7 @@ int main(int argc, char* argv[]) {
 			auto iopub_2_1 = std::make_shared<kaco::EntryPublisher>(device, "qry_relcntr/channel_2");
     		bridge.add_publisher(iopub_2_1,10);
 
-			auto iopub_2_2 = std::make_shared<kaco::EntryPublisher>(device, "qry_batamps/channel_2");
+			auto iopub_2_2 = std::make_shared<kaco::EntryPublisher>(device, "qry_motamps/channel_2");
     		bridge.add_publisher(iopub_2_2,10);
 		}
 
